@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/expertquestion"
+    tools:context="com.example.p.doctrose.Question">
+
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="140dp"
+        android:id="@+id/question"
+        android:hint="ENTER THE QUESTION"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:text="SUBMIT"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="92dp" />
+
+    <EditText
+        android:id="@+id/patientname"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="ENTER YOUR NAME"
+        android:layout_marginTop="120dp"
+        android:layout_alignStart="@+id/question" />
+</RelativeLayout>

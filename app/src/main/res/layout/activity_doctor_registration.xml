@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctorregistrationimage"
+    tools:context="com.example.p.doctrose.DoctorRegistration">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="REGISTRATION"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:hint="ENTER YOUR EMAIL"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:hint="ENTER YOUR PASSWORD"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:id="@+id/password"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/registernow"
+        android:id="@+id/registernow"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/password"
+        android:layout_alignStart="@+id/alreadysignin" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALREADY A USER? SIGN IN"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/alreadysignin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="53dp" />
+
+
+</RelativeLayout>

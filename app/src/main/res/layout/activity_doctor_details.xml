@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctorlogin"
+    tools:context="com.example.p.doctrose.DoctorDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="DETAILS"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:hint="ENTER YOUR NAME"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/name" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:hint="ENTER YOUR ADDRESS"
+        android:textStyle="bold"
+        android:id="@+id/address"
+        android:textColor="@color/colorPrimaryDark" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:hint="ENTER YOUR QUALIFICATION"
+        android:textStyle="bold"
+        android:id="@+id/qualification"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:hint="ENTER YOUR SPECIALITY"
+        android:textStyle="bold"
+        android:id="@+id/speciality"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:text="SAVE INFORMATION"
+        android:textColor="#ffffff"
+        android:id="@+id/saveinfo"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/speciality"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+
+        android:text="LOGOUT"
+        android:gravity="center"
+
+        android:id="@+id/logout"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/saveinfo"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:text="BE AN EXPERT"
+        android:textSize="30dp"
+        android:id="@+id/expertanswer"
+        android:textStyle="bold"
+        android:layout_below="@+id/logout"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
